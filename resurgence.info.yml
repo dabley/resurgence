@@ -18,7 +18,7 @@ libraries:
 #overrides have changed names
 
 libraries-override:
-  core/bartik.global-styling:
+  bartik/global-styling:
     css:
       theme:
         css/colors.css: css/colors.css
