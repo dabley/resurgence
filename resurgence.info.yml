@@ -5,7 +5,6 @@ core: 8.x
 base theme: bartik
 logo: logo.jpg
 dependencies:
-  - socialfeed
   - social_media_links
   - focal_point
   - crop
@@ -17,6 +16,13 @@ libraries:
   - resurgence/global-css
   - resurgence/global-js
 #overrides have changed names
+
+libraries-override:
+  core/bartik.global-styling:
+    css:
+      theme:
+        css/colors.css: css/colors.css
+
 
 #define regions
 regions:

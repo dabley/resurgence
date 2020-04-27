@@ -26,7 +26,6 @@
     "require": {
         "cweagans/composer-patches": "dev-master",
         "drupal/social_media_links": "2.x-dev",
-        "drupal/socialfeed": "1.x-dev",
         "drupal/focal_point": "1.x-dev"
     },
     "extra":{
@@ -34,11 +33,6 @@
         "patches": {
             "drupal/social_media_links": {
                 "Email validator is broken, switch to D8 validator": "https://www.drupal.org/files/issues/2019-07-02/social_media_links-3054183--fix-email-validation--5.patch"
-            },
-            "drupal/socialfeed": {
-                "Customize Feed doesnt work for facebook": "https://www.drupal.org/files/issues/2020-03-03/add_user_token_to_block_form-3117462-2.patch",
-                "Fix single post not returning": "https://www.drupal.org/files/issues/2020-03-02/fix_single_post_collection-3117218-3.patch",
-                "Fix trailing comma breaks block": "https://www.drupal.org/files/issues/2020-04-15/trailing_comma_fb_collector-3127876-2.patch"
             }
         }
     },
