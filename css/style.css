@@ -1,0 +1,91 @@
+#block-views-block-promoted-events-block-1 {
+/* container with header */
+
+}
+.view-promoted-events {
+/* list container with div.content before list
+
+}
+.view-promoted-events ul { 
+    list-style: inside circle;
+/*     list-style-type: circle; */
+}
+
+/* #block-views-block-promoted-events-block-1 */
+.view-promoted-events .views-field-title {
+display:inline-block;
+}
+
+/* google fonts */
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Buenard', serif ;
+}
+
+.buenard{
+  font-family: 'Buenard', serif ;
+}
+.fira{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+/* ======================================== */
+/* FB block */
+.block-facebook-post ul li {
+  list-style: none;
+  clear: both;
+  padding: 0 0 30px 0;
+}
+
+.block-facebook-post .fb-pic {
+  float: right;
+  padding: 0 0 10px 10px;
+}
+
+/* ======================================== */
+/* EO_google fonts */
+
+@media all and (min-width: 851px) {
+  .region-header .menu--account {
+    float: right;
+  }
+  .region-header .menu--tools {
+    float: right;
+  }
+
+  .block-system-branding-block {
+    max-width: 400px;
+    margin-right: 0;
+    float:left;
+  }
+
+  .block-system-branding-block img {
+    max-width:100%;
+    height: auto;
+  }
+
+  .block-social-media-links {
+    float:right;
+
+  }
+  .block-social-media-links a {
+    color: #000;
+  }
+  .block-social-media-links li {
+    margin: 0 5px;
+  }
+}
+
+
+
+
+/* =========================== */
+/* column and block based box-sizing with padding */
+
+.layout__region--first, .layout__region--second {
+  padding: 5px;            /* new */
+  box-sizing: border-box;  /* new */
+}

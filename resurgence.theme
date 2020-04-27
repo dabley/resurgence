@@ -1,0 +1,9 @@
+<?php
+
+function resurgence_preprocess_page(&$variables) {
+  if($variables['is_front']) {
+    $variables['#attached']['library'][] = 'resurgence/fancy-effect';
+  }
+}
+
+
