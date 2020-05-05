@@ -36,10 +36,16 @@
     'block-' ~ plugin_id|clean_class,
   ]
 %}
-<div{{ attributes.addClass(classes) }}>
+<div{{ attributes.addClass(classes) }} >
   {{ title_prefix }}
-  <a href="{{ field_url }}" target="_blank">
-    <h2{{ title_attributes }}>{{ label }}</h2>
+   {% if configuration.label_display %}
+   <h2{{ title_attributes }}>{{ label }}</h2>
+  {% endif %}
   {{ title_suffix }}
-  </a>
+
+
+	<a href="{{content.field_href}}" target="{{ content.field_target | default("_blank") }}">
+		{{content.field_link}}
+	</a>
 </div>
+
