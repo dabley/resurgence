@@ -8,8 +8,6 @@ global-css:
 global-js:
   js:
     js/script.js: {}
-  dependencies:
-   - core/jquery
 
 
 fancy-effect:

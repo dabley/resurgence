@@ -23,19 +23,6 @@
             "url": "https://packages.drupal.org/8"
         }
     ],
-    "require": {
-        "cweagans/composer-patches": "dev-master",
-        "drupal/social_media_links": "2.x-dev",
-        "drupal/focal_point": "1.x-dev"
-    },
-    "extra":{
-        "composer-exit-on-patch-failure": true,
-        "patches": {
-            "drupal/social_media_links": {
-                "Email validator is broken, switch to D8 validator": "https://www.drupal.org/files/issues/2019-07-02/social_media_links-3054183--fix-email-validation--5.patch"
-            }
-        }
-    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {

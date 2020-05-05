@@ -4,13 +4,6 @@ type: theme
 core: 8.x
 base theme: bartik
 logo: logo.jpg
-dependencies:
-  - social_media_links
-  - focal_point
-  - crop
-  - media_library
-  - layout_builder
-
 
 libraries:
   - resurgence/global-css
