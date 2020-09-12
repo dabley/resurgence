@@ -89,3 +89,15 @@ h1,h2,h3,h4,h5,h6 {
   padding: 5px;            /* new */
   box-sizing: border-box;  /* new */
 }
+
+
+
+/* =========================== */
+/*  SLIDER CSS  and colours -- TODO: to be moved  */
+
+.slider_description,.slider_name {display:none;}
+.r_events, .r_purple {color: #993d85 }
+.r_community {color:  #de9600}
+.r_talks {color: #0092b4}
+.r_courses {color: #70832f}
+.r_live {color: #ce471f}
