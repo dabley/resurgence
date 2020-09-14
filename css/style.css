@@ -86,7 +86,7 @@ h1,h2,h3,h4,h5,h6 {
 /* column and block based box-sizing with padding */
 
 .layout__region--first, .layout__region--second {
-  padding: 5px;            /* new */
+  padding: 5px 15px;            /* new */
   box-sizing: border-box;  /* new */
   min-width: 0;
 }
