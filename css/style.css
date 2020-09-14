@@ -88,6 +88,7 @@ h1,h2,h3,h4,h5,h6 {
 .layout__region--first, .layout__region--second {
   padding: 5px;            /* new */
   box-sizing: border-box;  /* new */
+  min-width: 0;
 }
 
 
@@ -101,3 +102,54 @@ h1,h2,h3,h4,h5,h6 {
 .r_talks {color: #0092b4}
 .r_courses {color: #70832f}
 .r_live {color: #ce471f}
+
+
+article.node--type-event header {display: none;}
+article.node--type-event div.content {margin:0;}
+
+article.node--type-event .field--type-datetime {
+    font-size: 9pt;
+    line-height: 8pt; 
+}
+
+article.node--type-event .field--name-field-event-type{
+  padding-top: 3px;
+    font-size: 9pt;
+    line-height: 9pt; 
+        font-stretch: semi-expanded;
+}
+
+article.node--type-event .field--name-title{
+    font-size: 10pt;
+    line-height: 11pt; 
+}
+
+article.node--type-event .field--name-field-description-body-text{
+    font-size: 8pt;
+    line-height: 9pt; 
+}
+
+article.node--type-event .field--name-field-link-to-event-page{
+font-size: 8pt;
+    line-height: 10pt; 
+}
+
+article.node--type-event .field--name-field-image{
+  opacity:1;
+}
+
+.about-us-sidebar {
+  padding: 15px;
+  background-color: lightgrey;
+  margin: 0 0 0 20px;
+}
+
+.about-us-sidebar img {
+  margin: 5px auto;
+  max-width: 200px;
+}
+
+.about-us-sidebar p {
+  margin: 5px auto;
+  max-width: 200px;
+}
