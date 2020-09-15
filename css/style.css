@@ -125,13 +125,56 @@ a:visited{
 
 /* =========================== */
 /*  SLIDER CSS  and colours -- TODO: to be moved  */
+.slider_description,
+.slider_name {
+  display: none;
+}
 
-.slider_description,.slider_name {display:none;}
-a.r_events   ,.r_events   , .r_purple {color: #993d85 }
-a.r_community,.r_community {color:  #de9600}
-a.r_talks    ,.r_talks    {color: #0092b4}
-a.r_courses  ,.r_courses  {color: #70832f}
-a.r_live     ,.r_live     {color: #ce471f}
+a.r_events:hover,
+a.r_events:visited,
+a.r_events:active,
+a.r_events:focus,
+a.r_events,
+.r_events,
+.r_purple {
+  color: #993d85
+}
+
+a.r_community:hover,
+a.r_community:visited,
+a.r_community:active,
+a.r_community:focus,
+a.r_community,
+.r_community {
+  color: #de9600
+}
+
+a.r_talks:hover,
+a.r_talks:visited,
+a.r_talks:active,
+a.r_talks:focus,
+a.r_talks,
+.r_talks {
+  color: #0092b4
+}
+
+a.r_courses:hover,
+a.r_courses:visited,
+a.r_courses:active,
+a.r_courses:focus,
+a.r_courses,
+.r_courses {
+  color: #70832f
+}
+
+a.r_live:hover,
+a.r_live:visited,
+a.r_live:active,
+a.r_live:focus,
+a.r_live,
+.r_live {
+  color: #ce471f
+}
 
 
 article.node--type-event header {display: none;}
