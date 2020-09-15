@@ -60,17 +60,27 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0 5px;
   }
 }
-
-a,.link,a:hover,a:focus,a:active,a:visited {
+#page>a,
+#page > .link,
+#page > a:hover,
+#page > a:focus,
+#page > a:active,
+#page > a:visited {
   color: #000;
 }
-a,.link {
+
+#page > a,
+#page > .link {
   font-weight: bolder;
 }
-a:hover,a:focus,a:active {
+
+#page > a:hover,
+#page > a:focus,
+#page > a:active {
   text-decoration: underline;
 }
-a:visited{
+
+a:visited {
   font-style: italic;
 }
 
@@ -79,7 +89,7 @@ a:visited{
   margin-bottom: 0;
 }
 .block-system-branding-block {
-  margin-left:15px;
+  margin-left:16px;
 }
 /* Default: mobile etc */
 .block-social-media-links li {
@@ -112,49 +122,49 @@ a:visited{
   display: none;
 }
 
-a.r_events:hover,
-a.r_events:visited,
-a.r_events:active,
-a.r_events:focus,
-a.r_events,
-.r_events,
-.r_purple {
+#page > a.r_events:hover,
+#page > a.r_events:visited,
+#page > a.r_events:active,
+#page > a.r_events:focus,
+#page > a.r_events,
+#page > .r_events,
+#page > .r_purple {
   color: #993d85
 }
 
-a.r_community:hover,
-a.r_community:visited,
-a.r_community:active,
-a.r_community:focus,
-a.r_community,
-.r_community {
+#page > a.r_community:hover,
+#page > a.r_community:visited,
+#page > a.r_community:active,
+#page > a.r_community:focus,
+#page > a.r_community,
+#page > .r_community {
   color: #de9600
 }
 
-a.r_talks:hover,
-a.r_talks:visited,
-a.r_talks:active,
-a.r_talks:focus,
-a.r_talks,
-.r_talks {
+#page > a.r_talks:hover,
+#page > a.r_talks:visited,
+#page > a.r_talks:active,
+#page > a.r_talks:focus,
+#page > a.r_talks,
+#page > .r_talks {
   color: #0092b4
 }
 
-a.r_courses:hover,
-a.r_courses:visited,
-a.r_courses:active,
-a.r_courses:focus,
-a.r_courses,
-.r_courses {
+#page > a.r_courses:hover,
+#page > a.r_courses:visited,
+#page > a.r_courses:active,
+#page > a.r_courses:focus,
+#page > a.r_courses,
+#page > .r_courses {
   color: #70832f
 }
 
-a.r_live:hover,
-a.r_live:visited,
-a.r_live:active,
-a.r_live:focus,
-a.r_live,
-.r_live {
+#page > a.r_live:hover,
+#page > a.r_live:visited,
+#page > a.r_live:active,
+#page > a.r_live:focus,
+#page > a.r_live,
+#page > .r_live {
   color: #ce471f
 }
 
