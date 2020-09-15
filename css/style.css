@@ -60,23 +60,23 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0 5px;
   }
 }
-#page>a,
-#page > .link,
-#page > a:hover,
-#page > a:focus,
-#page > a:active,
-#page > a:visited {
+#page a,
+#page .link,
+#page a:hover,
+#page a:focus,
+#page a:active,
+#page a:visited {
   color: #000;
 }
 
-#page > a,
-#page > .link {
+#page a,
+#page .link {
   font-weight: bolder;
 }
 
-#page > a:hover,
-#page > a:focus,
-#page > a:active {
+#page a:hover,
+#page a:focus,
+#page a:active {
   text-decoration: underline;
 }
 
@@ -122,49 +122,49 @@ a:visited {
   display: none;
 }
 
-#page > a.r_events:hover,
-#page > a.r_events:visited,
-#page > a.r_events:active,
-#page > a.r_events:focus,
-#page > a.r_events,
-#page > .r_events,
-#page > .r_purple {
+#page  a.r_events:hover,
+#page  a.r_events:visited,
+#page  a.r_events:active,
+#page  a.r_events:focus,
+#page  a.r_events,
+#page  .r_events,
+#page  .r_purple {
   color: #993d85
 }
 
-#page > a.r_community:hover,
-#page > a.r_community:visited,
-#page > a.r_community:active,
-#page > a.r_community:focus,
-#page > a.r_community,
-#page > .r_community {
+#page  a.r_community:hover,
+#page  a.r_community:visited,
+#page  a.r_community:active,
+#page  a.r_community:focus,
+#page  a.r_community,
+#page  .r_community {
   color: #de9600
 }
 
-#page > a.r_talks:hover,
-#page > a.r_talks:visited,
-#page > a.r_talks:active,
-#page > a.r_talks:focus,
-#page > a.r_talks,
-#page > .r_talks {
+#page  a.r_talks:hover,
+#page  a.r_talks:visited,
+#page  a.r_talks:active,
+#page  a.r_talks:focus,
+#page  a.r_talks,
+#page  .r_talks {
   color: #0092b4
 }
 
-#page > a.r_courses:hover,
-#page > a.r_courses:visited,
-#page > a.r_courses:active,
-#page > a.r_courses:focus,
-#page > a.r_courses,
-#page > .r_courses {
+#page  a.r_courses:hover,
+#page  a.r_courses:visited,
+#page  a.r_courses:active,
+#page  a.r_courses:focus,
+#page  a.r_courses,
+#page  .r_courses {
   color: #70832f
 }
 
-#page > a.r_live:hover,
-#page > a.r_live:visited,
-#page > a.r_live:active,
-#page > a.r_live:focus,
-#page > a.r_live,
-#page > .r_live {
+#page  a.r_live:hover,
+#page  a.r_live:visited,
+#page  a.r_live:active,
+#page  a.r_live:focus,
+#page  a.r_live,
+#page  .r_live {
   color: #ce471f
 }
 
