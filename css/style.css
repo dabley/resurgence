@@ -1,21 +1,3 @@
-#block-views-block-promoted-events-block-1 {
-/* container with header */
-
-}
-.view-promoted-events {
-/* list container with div.content before list
-
-}
-.view-promoted-events ul { 
-    list-style: inside circle;
-/*     list-style-type: circle; */
-}
-
-/* #block-views-block-promoted-events-block-1 */
-.view-promoted-events .views-field-title {
-display:inline-block;
-}
-
 /* google fonts */
 body {
   font-family: 'Fira Sans', sans-serif;
