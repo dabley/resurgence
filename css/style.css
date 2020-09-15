@@ -79,7 +79,37 @@ h1,h2,h3,h4,h5,h6 {
   }
 }
 
+a,a:hover,a:focus,a:active,a:visited {
+  color: #000;
+}
+a {
+  font-weight: bolder;
+}
+a:hover,a:focus,a:active {
+  text-decoration: underline;
+}
+a:visited{
+  font-style: italic;
+}
 
+
+#block-socialmedialinks{
+  margin-bottom: 0;
+}
+.block-system-branding-block {
+  margin-left:15px;
+}
+/* Default: mobile etc */
+.block-social-media-links li {
+    margin: 0 5px;
+}
+.block-social-media-links {
+    float:right;
+
+}
+.block-social-media-links a {
+  color: #000;
+}
 
 
 /* =========================== */
@@ -97,11 +127,11 @@ h1,h2,h3,h4,h5,h6 {
 /*  SLIDER CSS  and colours -- TODO: to be moved  */
 
 .slider_description,.slider_name {display:none;}
-.r_events, .r_purple {color: #993d85 }
-.r_community {color:  #de9600}
-.r_talks {color: #0092b4}
-.r_courses {color: #70832f}
-.r_live {color: #ce471f}
+a.r_events   ,.r_events   , .r_purple {color: #993d85 }
+a.r_community,.r_community {color:  #de9600}
+a.r_talks    ,.r_talks    {color: #0092b4}
+a.r_courses  ,.r_courses  {color: #70832f}
+a.r_live     ,.r_live     {color: #ce471f}
 
 
 article.node--type-event header {display: none;}

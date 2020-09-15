@@ -3,6 +3,7 @@ jQuery.each(document.getElementsByClassName("node--type-event"),function(element
             var eventColourClass = 'r_events';
             var blockEventType = eventElement.getElementsByClassName('block-field-blocknodeeventfield-event-type')[0];
             var blockEventTitle = eventElement.getElementsByClassName('block-field-blocknodeeventtitle')[0];
+            var linkElement = eventElement.getElementsByClassName('field--name-field-link-to-event-page')[0].getElementsByTagName('A')[0];
             var eventElementType = blockEventType.getElementsByClassName('field__item')[0].innerText
             switch (eventElementType.toLowerCase()) {
                 case ('community'):
@@ -24,7 +25,7 @@ jQuery.each(document.getElementsByClassName("node--type-event"),function(element
             }
             blockEventTitle.classList.add(eventColourClass);
             blockEventType.classList.add(eventColourClass);
-            var linkElement = eventElement.getElementsByClassName('field--name-field-link-to-event-page')[0].getElementsByTagName('A')[0];
+            linkElement.classList.add(eventColourClass);
             linkElement.innerText = "Find out more...";
         });
         
