@@ -224,7 +224,8 @@ footer.site-footer {
   padding-top: 1px;
 }
 footer img {
-  max-width: 40%;
+  max-height: 40px;
+  width:auto;
 }
 #main {
   padding-bottom: 0;
