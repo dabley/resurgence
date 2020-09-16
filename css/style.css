@@ -71,7 +71,7 @@ h1,h2,h3,h4,h5,h6 {
 
 #page a,
 #page .link {
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 #page a:hover,
@@ -217,4 +217,16 @@ article.node--type-event .field--name-field-image{
 .about-us-sidebar p {
   margin: 5px auto;
   max-width: 200px;
+}
+
+footer {
+  margin-top: 0;
+  padding-top: 1px;
+}
+footer img {
+  max-width: 40%;
+}
+#main {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }

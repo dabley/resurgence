@@ -1,4 +1,4 @@
-console.log("front page event script loaded, painting events");
+console.log("Resurgence event script loaded, painting events");
 jQuery.each(document.getElementsByClassName("node--type-event"),function(elementIndex,eventElement) {
             var eventColourClass = 'r_events';
             var blockEventType = eventElement.getElementsByClassName('block-field-blocknodeeventfield-event-type')[0];
