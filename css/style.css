@@ -1,6 +1,8 @@
 /* google fonts */
 body {
   font-family: 'ff-scala-sans-pro', sans-serif;
+  font-size: 1.25em;
+  line-height: 1.4em;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -36,7 +38,30 @@ h1,h2,h3,h4,h5,h6 {
   }
   .region.region-primary-menu nav {
     margin: auto 0;
+    width: 100%;
   }
+  .region.region-primary-menu nav .content {
+    float: right;
+  }
+  
+  .region.region-primary-menu nav a {
+    border: none;
+    border-radius: initial;
+  }
+
+  .region.region-primary-menu nav a:active,
+  .region.region-primary-menu nav a.is-active {
+    border-top: 1px dotted #000;
+    border-bottom: 1px dotted #000;
+  }
+
+  .region.region-primary-menu nav a:focus,
+  .region.region-primary-menu nav a:hover,
+  .region.region-primary-menu nav a.has-focus {
+    border-top: 1px dotted #000;
+    border-bottom: 1px dashed #000;
+  }
+
   .region-header .menu--account {
     float: right;
   }
