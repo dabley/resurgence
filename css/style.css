@@ -42,14 +42,17 @@ h1,h2,h3,h4,h5,h6 {
   }
   .region.region-primary-menu nav .content {
     float: right;
+    vertical-align: middle;
   }
   .region.region-primary-menu nav ul {
     float: right;
+    vertical-align: middle;
   }
   .region.region-primary-menu nav a {
+    vertical-align: middle;
     border: none;
     border-radius: initial;
-    padding: 5px;
+    padding: 1px 5px;
     margin: 0 25px;
     text-decoration: none !important;
   }
@@ -62,11 +65,13 @@ h1,h2,h3,h4,h5,h6 {
   .region.region-primary-menu nav a.is-active {
     border-top: 1px dotted #000;
     border-bottom: 1px dotted #000;
+    padding:5px;
   }
 
   .region.region-primary-menu nav a:focus,
   .region.region-primary-menu nav a:hover,
   .region.region-primary-menu nav a.has-focus {
+    padding:5px;
     border-top: 1px dotted #000;
     border-bottom: 1px dashed #000;
   }
