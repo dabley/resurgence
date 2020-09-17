@@ -47,6 +47,8 @@ h1,h2,h3,h4,h5,h6 {
   .region.region-primary-menu nav a {
     border: none;
     border-radius: initial;
+    padding: 5px;
+    text-decoration: none;
   }
 
   .region.region-primary-menu nav a:active,
