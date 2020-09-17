@@ -34,6 +34,9 @@ h1,h2,h3,h4,h5,h6 {
   .region.region-primary-menu {
     display:flex;
   }
+  .region.region-primary-menu nav {
+    margin: auto 0;
+  }
   .region-header .menu--account {
     float: right;
   }
