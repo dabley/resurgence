@@ -213,39 +213,49 @@ a:visited {
   color: #ce471f
 }
 
+article.node--type-event header {
+  display: none;
+}
 
-article.node--type-event header {display: none;}
-article.node--type-event div.content {margin:0;}
+article.node--type-event div.content {
+  margin: 0;
+}
 
 article.node--type-event .field--type-datetime {
-    font-size: 9pt;
-    line-height: 8pt; 
+  font-size: 0.95em;
+  line-height: 1.2em;
 }
 
-article.node--type-event .field--name-field-event-type{
+article.node--type-event .field--name-field-event-type {
   padding-top: 3px;
-    font-size: 9pt;
-    line-height: 9pt; 
-        font-stretch: semi-expanded;
+  font-size: 0.95em;
+  font-weight: 300;
+  line-height: 1.2em;
+  font-stretch: semi-expanded;
 }
 
-article.node--type-event .field--name-title{
-    font-size: 10pt;
-    line-height: 11pt; 
+article.node--type-event .field--name-title {
+  font-size: 0.95em;
+  line-height: 1.2em;
+  font-stretch: condensed;
 }
 
-article.node--type-event .field--name-field-description-body-text{
-    font-size: 8pt;
-    line-height: 9pt; 
+article.node--type-event .field--name-field-description-body-text {
+  font-size: 0.75em;
+  line-height: 1.2em;
 }
 
-article.node--type-event .field--name-field-link-to-event-page{
-font-size: 8pt;
-    line-height: 10pt; 
+article.node--type-event .field--name-field-description-body-text p {
+  margin-bottom: 0px;
 }
 
-article.node--type-event .field--name-field-image{
-  opacity:1;
+article.node--type-event .field--name-field-link-to-event-page {
+  font-size: 0.65em;
+
+}
+
+article.node--type-event .field--name-field-image {
+  opacity: 1;
 }
 
 .about-us-sidebar {
