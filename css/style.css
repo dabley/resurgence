@@ -106,6 +106,14 @@ h1,h2,h3,h4,h5,h6 {
   }
 }
 
+.block-field-blocknodeeventfield-image {
+  margin: 0;
+}
+
+article.node--type-event .block-field-blocknodeeventfield-image img {
+  margin: 0;
+}
+
 header, #header {
   font-family: 'ff-scala', serif ;
 }
