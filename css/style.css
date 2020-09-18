@@ -106,6 +106,20 @@ h1,h2,h3,h4,h5,h6 {
   }
 }
 
+/*  Event related css */
+
+article.node--type-event .layout__region {
+  padding: 5px;
+}
+
+article.node--type-event .layout--twocol-section.layout--twocol-section--67-33 .layout__region--first {
+  flex: 0 1 60%;
+}
+
+article.node--type-event .layout--twocol-section.layout--twocol-section--67-33 .layout__region--second {
+  flex: 0 1 40%;
+}
+
 .block-field-blocknodeeventfield-image .field--name-field-image {
   margin: 0;
 }
@@ -114,9 +128,6 @@ article.node--type-event .block-field-blocknodeeventfield-image img {
   margin: 0;
 }
 
-article.node--type-event .layout__region {
-  padding: 5px;
-}
 
 header, #header {
   font-family: 'ff-scala', serif ;
