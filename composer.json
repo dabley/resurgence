@@ -1,9 +1,9 @@
 {
     "name": "tyeth/resurgence",
-    "description": "Theme for resurgence trust centre based on core theme",
+    "description": "Theme for Resurgence Events website © Resurgence Trust 2020",
     "type": "drupal-theme",
     "license": "GPL-2.0-or-later",
-    "homepage": "https://www.drupal.org/project/bartik",
+    "homepage": "https://www.resurgenceevents.org/",
     "authors": [
         {
             "name": "Tyeth Gundry (tyeth)",
