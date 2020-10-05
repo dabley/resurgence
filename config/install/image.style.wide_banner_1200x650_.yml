@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: wide_banner_1200x650_
+label: 'Wide banner (1200x650)'
+effects:
+  97a24b59-51a5-4b95-a64b-901c7d15b6b2:
+    uuid: 97a24b59-51a5-4b95-a64b-901c7d15b6b2
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 650
+      crop_type: focal_point
