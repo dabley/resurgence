@@ -2,6 +2,7 @@
 /**
  * @file
  * Theme override for the basic structure of a single Drupal page. - classy template
+ * Adapted May 2020, to place the additional stylesheet required from Adobe fonts.
  *
  * Variables:
  * - logged_in: A flag indicating if user is logged in.
@@ -36,6 +37,11 @@
 <head>
   <head-placeholder token="{{ placeholder_token }}">
   <title>{{ head_title|safe_join(' | ') }}</title>
+  {# 
+    Resurgence Theme Change:
+    Added adobe font stylesheet - tied to Rachael Marsh's adobe account
+    Containing ff-scala and ff-scala-sans-pro 
+  #}
   <link rel="stylesheet" href="https://use.typekit.net/bxa4hmr.css">
   <css-placeholder token="{{ placeholder_token }}">
   <js-placeholder token="{{ placeholder_token }}">
