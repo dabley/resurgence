@@ -1,9 +1,21 @@
 body {
-  font-family: 'Fira Sans';
+  font-family: 'ff-scala-sans-pro', sans-serif;
 }
+
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Buenard' ;
+  font-family: 'ff-scala', serif ;
 }
+
+header, #header {
+  font-family: 'ff-scala', serif ;
+}
+footer, #footer, .site-footer {
+  font-family: 'ff-scala', serif ;
+}
+#page h2 {
+  font-family: 'ff-scala', serif ;
+}
+
 /* ======================================== */
 /* FB block */
 .block-facebook-post ul li {

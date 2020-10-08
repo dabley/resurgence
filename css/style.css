@@ -9,11 +9,12 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'ff-scala', serif ;
 }
 
-.buenard{
-  font-family: 'Buenard', serif ;
+.font-serif {
+  font-family: 'ff-scala', serif;
 }
-.fira{
-  font-family: 'Fira Sans', sans-serif;
+
+.font-sans-serif, .font-sanserif, .font-sansserif {
+  font-family: 'ff-scala-sans-pro', sans-serif;
 }
 
 /* ======================================== */
