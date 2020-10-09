@@ -172,16 +172,14 @@ footer, #footer, .site-footer {
 
 #page a,
 #page .link {
-  text-decoration: none;
-  border-bottom: dashed 1px;
   font-weight: bold;
+  text-decoration: dashed;
 }
 
 #page a:hover,
 #page a:focus,
 #page a:active {
-  border-bottom: solid 1px;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:visited {
