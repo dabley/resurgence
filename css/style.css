@@ -176,12 +176,6 @@ footer, #footer, .site-footer {
   text-decoration: dashed;
 }
 
-#page a:hover,
-#page a:focus,
-#page a:active {
-  text-decoration: underline;
-}
-
 a:visited {
   font-style: italic;
 }
