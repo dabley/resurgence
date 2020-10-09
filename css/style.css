@@ -343,7 +343,7 @@ footer img {
   max-height: 40px;
   width:auto;
 }
-footer.site-footer table a {
+#page footer.site-footer table a {
   text-decoration: none;
 }
 #main {
