@@ -345,6 +345,7 @@ footer img {
 }
 #page footer.site-footer table a {
   text-decoration: none;
+  border: none;
 }
 #main {
   margin-top: 0;
