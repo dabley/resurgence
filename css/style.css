@@ -109,6 +109,10 @@ h1,h2,h3,h4,h5,h6 {
 
 /*  Event related css */
 
+div.view-up-next ul.pager__items {
+  display: none;
+}
+
 article.node--type-event .layout__region {
   padding: 5px;
 }
@@ -164,11 +168,10 @@ a:visited {
   font-style: italic;
 }
 
-#page footer a {
+a img {
+  border: none;
   text-decoration: none;
-  border:none;
 }
-
 
 #block-socialmedialinks{
   margin-bottom: 0;
