@@ -17,14 +17,22 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'ff-scala-sans-pro', sans-serif;
 }
 
+
+/* Max Height utility classes for the designer. To be used for header images etc. */
+.max-height-3-2em {
+  max-height: 3.2em;
+}
 .max-height-3em {
   max-height: 3em;
 }
-.max-height-2em {
-  max-height: 2em;
+.max-height-2-8em {
+  max-height: 2.8em;
 }
 .max-height-2-5em {
   max-height: 2.5em;
+}
+.max-height-2em {
+  max-height: 2em;
 }
 .max-height-1-5em {
   max-height: 1.5em;
