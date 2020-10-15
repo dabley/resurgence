@@ -333,7 +333,7 @@ article.node--type-event .field--name-field-image {
   min-width: 100px;
   width: auto;
   width: -webkit-fill-available;
-  width: -moz-available
+  width: -moz-available;
   width: stretch;
 }
 
