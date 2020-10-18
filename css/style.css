@@ -350,6 +350,10 @@ footer img {
   max-height: 40px;
   width:auto;
 }
+footer table tr, footer table td {
+  padding:0;
+  margin:0;
+}
 #page footer.site-footer table a {
   text-decoration: none;
   border: none;
