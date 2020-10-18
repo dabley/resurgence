@@ -58,7 +58,7 @@ h1,h2,h3,h4,h5,h6 {
 /* ======================================== */
 /* EO_google fonts */
 
-@media all and (min-width: 851px) {
+@media all and (min-width: 40em) {
   .region.region-primary-menu {
     display:flex;
   }
